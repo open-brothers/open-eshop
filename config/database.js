@@ -5,7 +5,6 @@ const sequelize = new Sequelize('open-eshop', 'root', 'open123', {
   host: 'localhost',
   port: '32788', // change port to 3306 in future
   dialect: 'mysql',
-  operatorsAliases: false,
   pool: {
     max: 5,
     min: 0,
